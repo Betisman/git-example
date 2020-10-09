@@ -1,3 +1,5 @@
-const sayHello = () => console.log(`Hello!`);
+const say = what => console.log(what);
+
+const sayHello = () => say(`Hello!`);
 
 sayHello();
