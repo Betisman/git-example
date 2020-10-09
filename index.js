@@ -1,5 +1,5 @@
-const stray = what => console.log(what);
+const say = what => console.log(what);
 
-const sayHello = () => stray(`Hello!`);
+const sayHello = () => say(`Hello!`);
 
 sayHello();
